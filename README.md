@@ -26,6 +26,7 @@ in terms of energy use and carbon emissions.
   and HVAC heat input using a first-order RC model
   (integrated with forward Euler time stepping).
 
+  C * dT_in/dt = UA * (T_out - T_in) + Q_int + Q_hvac
 - **Thermostat control**  
   A deadband thermostat determines HVAC operation to maintain indoor temperature
   around a setpoint.
@@ -33,10 +34,8 @@ in terms of energy use and carbon emissions.
 - **HVAC & energy model**  
   HVAC delivers fixed thermal power when active.  
   Electrical energy consumption is computed as:
-  \[
-  E_{elec} = \frac{Q_{thermal}}{COP}
-  \]
-
+  
+  Electrical Energy = Thermal Energy / COP
 - **Carbon model**  
   CO₂ emissions are calculated from electricity use using a constant emissions factor
   and compared across COP values (e.g. resistance vs heat pump).
