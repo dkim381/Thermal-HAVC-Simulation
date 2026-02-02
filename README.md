@@ -36,7 +36,7 @@ in terms of energy use and carbon emissions.
   HVAC delivers fixed thermal power when active.  
   Electrical energy consumption is computed as:
   
-E_elec = Q_thermal / COP
+  E_elec = Q_thermal / COP
 - **Carbon model**  
   CO₂ emissions are calculated from electricity use using a constant emissions factor
   and compared across COP values (e.g. resistance vs heat pump).
