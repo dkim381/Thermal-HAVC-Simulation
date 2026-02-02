@@ -1,4 +1,4 @@
-HVAC RC Thermal & Carbon Model
+#HVAC RC Thermal & Carbon Model
 
 A simplified one-zone RC (resistance–capacitance) building thermal model with
 thermostat-controlled HVAC, energy consumption, and CO₂ emissions comparison.
